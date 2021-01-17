@@ -448,15 +448,15 @@ def validate_branch():
 	for app in intersection_apps:
 		branch = get_current_branch(app)
 
-		if branch == "master":
-			print("""'master' branch is renamed to 'version-11' since 'version-12' release.
-As of January 2020, the following branches are
-version		Frappe			ERPNext
-11		version-11		version-11
-12		version-12		version-12
-13		develop			develop
+# 		if branch == "master":
+# 			print("""'master' branch is renamed to 'version-11' since 'version-12' release.
+# As of January 2020, the following branches are
+# version		Frappe			ERPNext
+# 11		version-11		version-11
+# 12		version-12		version-12
+# 13		develop			develop
 
-Please switch to new branches to get future updates.
-To switch to your required branch, run the following commands: bench switch-to-branch [branch-name]""")
+# Please switch to new branches to get future updates.
+# To switch to your required branch, run the following commands: bench switch-to-branch [branch-name]""")
 
-			sys.exit(1)
+# 			sys.exit(1)
